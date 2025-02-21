@@ -1,0 +1,11 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: rosybrown;
+    background-color: beige;
+    }
+    .yellowBg {background-color: #FFFF00; }
+    .orangetext {
+        color: orange;
+        font-weight: bold;
+        }
