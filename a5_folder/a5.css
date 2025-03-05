@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	max-height: 800px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border: thin solid #777777;
+}
+body {
+	background-image: url(images/backg.jpg);
+	font-size: 12px;
+	font-family: 'Eagle Lake', sans-serif;
+	color: #333333;
+	line-height: 1.8em;
+	font-style:normal;
+	font-weight: 400;
+}
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section {
+	padding:20px
+}
+.heading {
+	font-size:32px;
+	color: #333333;
+}
+.subheading {
+	font-size: 16px;
+	color: #333333;
+}
+a:link {
+	color: #0CF;
+}
+a:visited {
+	color: #006;
+}
+a:hover {
+	color: #03F;
+}
+a:active {
+	color: #9FF;
+}
+nav {
+	font-size: 20px;
+	word-spacing: 50px;
+	letter-spacing: 5px;
+	display: flex;
+	justify-content: space-evenly
+}
+.boxModel {
+	border: 7px solix black;
+	margin: 25px;
+}
+.centered-section {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
