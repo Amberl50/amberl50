@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: black;
+	font-size: medium;
+	font-family: Papyrus, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-image: url("images/sky.jpg");
+	line-height: 1.8em;
+	
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+.columnTwo{
+	webkit-column-count: 2; /* Chrome, Safari, Opera */
+	moz-column-count: 2; /* Firefox */
+	column-count: 2;
+}
+.columnThree {
+	webkit-column-count: 3; /* Chrome, Safari, Opera */
+	moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	column-gap: 40px;
+	column-rule-width: 1px;
+	column-rule-color: lightsteelblue;
+	column-span: all;
+	column-width: 100px;
+	
+}
+.header {
+	font-size: 40px;
+	text-align: center;
+	background-color: beige;
+}
+.nav {
+	font-size: 20px;
+	word-spacing: 50px;
+	letter-spacing: 5px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.floatLeft {
+	float: left;
+	border: 3px solid #999;
+}
+.floatRight {
+	float: right;
+	border: 3px solid #999;
+}
+.footer{
+	text-align: center;
+	just-content: flex;
+	background-color: beige;
+}
+.social-icon {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: transform 0.3s, opacity 0.3s;
+
+  }
+  
+  .facebook { background-image: url(https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo=w480-h960-rw); }
+  .instagram { background-image: url(https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w480-h960-rw); }
+  .snapchat { background-image: url(https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo=w480-h960-rw); }
+  .pinterest { background-image: url(https://play-lh.googleusercontent.com/6CFQQ0b9r5fzF1v6f0gIirWsOGL7sGWkJifuUQxxhbCMcBx5aSG_cNXpjDKDn5c1jwjq=w480-h960-rw); }
+header, footer, nav, article {
+display: block;
+}

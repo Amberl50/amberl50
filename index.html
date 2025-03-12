@@ -2,23 +2,116 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Amber Lapray</title>
-<link href="external.css" rel="stylesheet"
-	type="text/css">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<p class="orangetext">
-	Hello World!
-</p>
-
-<p>
-	<a href="contact.html">My contact page</a>
-</p>
-
-<p>
-	<a href="cmp.html">My cmp page</a>
-</p>
-
+	<div class="container">
+		<header class="header">Southern Idaho Photography</header>
+		<br>
+		<nav class="nav">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#gallery">Gallery</a>
+			<a href="social">Contact</a>
+		</nav>
+		<br>
+			<h2>About</h2>
+		<section id="about">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc massa, volutpat in nulla vitae, scelerisque pulvinar elit. Vestibulum bibendum luctus tellus. Pellentesque luctus turpis augue, eget cursus arcu finibus sit amet. Maecenas porta nulla et aliquam molestie. Suspendisse potenti. Aliquam euismod mauris sit amet nisl auctor consequat. Fusce gravida imperdiet velit nec dictum. Aliquam imperdiet eu massa eget molestie. Cras a gravida nunc, eget rhoncus risus.
+		</section>
+		<br>
+			<h2>Gallery</h2>
+		<section id="gallery" class="columnTwo">
+			Sed fermentum aliquet arcu id condimentum. Proin ornare mi sed dapibus iaculis. Phasellus sed libero nec purus placerat lacinia id in arcu. Donec varius luctus tincidunt. Praesent pellentesque leo ex, et consequat sem fringilla at. Nullam venenatis mi tortor, lacinia consequat tellus mollis id. Mauris sit amet nibh lectus. Sed consectetur massa eget porttitor venenatis. Aenean venenatis lacinia congue. Integer in pellentesque dui.
+			<table>
+			<tr>
+				<td><a href="images/640/buns.jpg" target="_blank">
+				<img class="boxModel" src="images/thumbs/buns.jpg" width="150" height="200" alt="bunnies"/></a>
+				</td>
+				<td><a href="images/640/duck.jpg" target="_blank">
+				<img class="boxModel" src="images/thumbs/duck.jpg" width="200" height="198" alt="ducks"/></a>
+				</td>
+				<td><a href="images/640/lav.jpg"
+				target="_blank">
+				<img class="boxModel" src="images/thumbs/lav.jpg" width="150" height="200" alt="lavendar"/></a>
+				</td>
+			</tr>
+			<tr>
+				<td><a href="images/640/csa.jpg"
+				target="_blank">
+				<img class="boxModel" src="images/thumbs/csa.jpg" width="150" height="200" alt="community supported agriculture"/></a>
+				</td>
+				<td><a href="images/640/market.jpg" target="_blank">
+				<img class="boxModel" src="images/thumbs/market.jpg" width="200" height="150" alt="farmers markets"/></a>
+				</td>
+				<td><a href="images/640/sign.jpg" target="_blank">
+				<img class="boxModel" src="images/thumbs/sign.jpg" width="150" height="200" alt="signage"/></a>
+				</td>
+			</tr>
+		</table>
+		</section>
+		<br>
+			<h2>Contact</h2>
+		<section id="contact" class="columnThree">
+			<form id="form1" name="form1" method="post" action="form script url">
+			
+			<p>Name:
+				<br>
+				<input type="text" name="name">
+			</p>
+			
+			<p>Comments:
+				<br>
+				<textarea rows="3" cols="50" name="comments"></textarea>
+			</p>
+			
+			<p>Let us know which is your favorite!
+				<br>
+				<input type="checkbox" name="vision" value="heirloom varieties">
+					Animals
+				<br>
+				<input type="checkbox" name="vision" value="leafy greens">
+					Plants
+				<br>
+				<input type="checkbox" name="vision" value="edible flowers">
+					Markets
+				</p>
+			
+			<p>Are you interested in photography services?
+				<br>
+				<input type="radio" name="gardener" value="Yes">
+					Yes
+				<br>
+				<input type="radio" name="gardener" value="No">
+					No
+			</p>
+			
+			<p>
+				<input type="submit" name="submit_button" value="Submit">
+			</p>
+			
+		</form>
+		</section>
+		<br>
+		<footer class="footer">
+			<div class="social-icons">
+				<a href="https://www.facebook.com" class="social-icon facebook" target="_blank">
+				<div class="vine"></div>
+			</a>
+			<a href="https://www.instagram.com" class="social-icon instagram" target="_blank">
+				<div class="vine"></div>
+			</a>
+			<a href="https://www.snapchat.com" class="social-icon snapchat" target="_blank">
+				<div class="vine"></div>
+			</a>
+			<a href="https://www.pinterest.com" class="social-icon pinterest" target="_blank">
+				<div class="vine"></div>
+			</a>
+		</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc massa, volutpat in nulla vitae, scelerisque pulvinar elit. </p> 
+		</footer>
+	</div>
 </body>
 </html>
